@@ -1,17 +1,17 @@
-# Sensory Function: Eye and Ear Care
+# Integrated Disease Surveillance: Acute Febrile Illness
 
 ## Release note 
 
-- [Release note](#ncd-sf-release-note)
+- [Release note](#ids-afi-release-note)
 
 ## Design
 
-- [Design](#ncd-sf-design)
+- [Design](#ids-afi-design)
 
 ## Installation
 
-- [Installation guide](#ncd-sf-installation)
+- [Installation guide](#ids-afi-installation)
 
 ## Metadata reference
 
-- [Version 1.0.0](https://packages.dhis2.org/en/NCD_SF/1.0.0/DHIS2.39/NCD_SF_COMPLETE_1.0.0_DHIS2.39.xlsx)
+- [Version 1.0.0](https://packages.dhis2.org/en/IDS_AFI/1.0.0/DHIS2.39/IDS_AFI_COMPLETE_1.0.0_DHIS2.39.xlsx)
