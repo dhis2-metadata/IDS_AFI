@@ -1,2 +1,3 @@
-# NCD_SF
-Sensory function: Eye and Ear Care
+# IDS_AFI
+
+Integrated Disease Surveillance: Acute Febrile Illness
