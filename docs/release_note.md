@@ -1,5 +1,5 @@
-# Release Note { #sf-release-note }
+# Integrated Disease Surveillance: Acute Febrile Illness { #ids-afi-release-note }
 
 ## 1.0.0
 
-Initital release of Sensory Function: Eye and Ear Care toolkit.
+Initital release of Integrated Disease Surveillance: Acute Febrile Illness toolkit.
