@@ -4,25 +4,13 @@
 
 Acute febrile illness (AFI) surveillance systems support public health officials to understand, detect and respond to emerging and reemerging infectious disease threats. Conducting AFI surveillance leads to greater detection of emerging and epidemic-prone infectious diseases that may be unknown, understudied, or difficult to track. Additionally, surveillance systems can support high-priority investigations using available staff, material, supplies, reagents, and testing processes [CDC, 2021](https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/2021/UFTF-AFI-Surveillance-COVID-Central-America.html#:~:text=AFI%20is%20characterized%20by%20a,bacteria%2C%20parasites%2C%20and%20fungi.).developed in partnership with the U.S. Centers for Disease Control and Prevention (CDC), the DHIS2 toolkit for AFI surveillance supports countries to digitize AFI surveillance activities in the national system, with key features such as linking laboratory results to screened and enrolled AFI cases presenting in sentinel surveillance facilities. As part of a multipathogen approach to disease surveillance, the AFI system design  promotes coordination across disease monitoring systems, use of a flexible foundation, and dedicated resources for effective disease detection and informed conclusions.
 
-A DHIS2 Tracker program incorporates digital versions of two generic forms from the AFI toolkit: a **case report form** and a **specimen collection and testing form** and links them to a common case record for improved data management and analysis. CDC-recommended metadata are used to enable electronic capture of individual/case-based AFI surveillance data from the point of screening and enrollment in the surveillance study. The tracker is designed for surveillance purposes according to CDC-recommended protocols for AFI surveillance. Therefore, it is not optimized or intended to support individual patient management or patient care. Pre-configured dashboards allow public health staff in countries to monitor AFI results and trends in real-time for as long as the surveillance activities continue.  
+The DHIS2 Tracker program incorporates digital versions of two generic forms from the AFI toolkit: the **case report form** and the **specimen collection and testing form**, and links them to a common case record for improved data management and analysis. CDC-recommended metadata are used to enable electronic capture of individual/case-based AFI surveillance data from the point of screening and enrollment in the surveillance study. The tracker is designed for surveillance purposes according to CDC-recommended protocols for AFI surveillance. It is therefore NOT optimized or intended to support individual patient management or patient care. Pre-configured dashboards allow public health staff in countries to monitor AFI results and trends in real-time for as long as the surveillance activities continue.  
 
-The system design document explains how the tracker program was configured to meet the data entry and analysis requirements and support a typical workflow. The document does not include an exhaustive listing of all metadata captured. More information on the AFI programme technical aspects informing this system design is available in the AFI toolkit generic protocol, which can be obtained by emailing askgelsb@cdc.gov, with a request expressing interest in receiving the materials.
+The system design document explains how the tracker program was configured to meet the data entry and analysis requirements and support a typical workflow. The document does not include an exhaustive listing of all metadata captured. More information on the AFI programme technical aspects informing this system design is available in the AFI toolkit generic protocol, which can be obtained by emailing askgelsb@cdc.gov, with a request expressing interest in receiving the relevant documentation.
 
 ### Acknowledgements
 
-The AFI toolkit was developed in partnership with CDC Division of Global Health Protection (DGHP) Global Epidemiology, Laboratory, and Surveillance Branch (GELSB). GELSB, in collaboration with CDC country and regional offices, is taking an active role to harmonize AFI surveillance efforts as part of a multi-pathogen approach to disease surveillance and supporting countries to strengthen these systems. HISP Centre is also grateful to MOH Uganda, HISP Uganda and AFENET Liberia for sharing their implementation lessons and system design approaches to inform the development of this toolkit.
-
-### Abbreviations
-
-AFI: Acute Febrile Illness
-CDC: U.S. Centers for Disease Control and Prevention
-DGHP: Division of Global Health Protection
-GELSB: Global Epidemiology, Laboratory, and Surveillance Branch
-KPI: Key Performance Indicators
-IPD: Inpatient Department
-OPD: Outpatient Department
-TEA: Tracked Entity Attributes
-TEI: Tracked Entity Instance
+The AFI toolkit was developed in partnership with CDC Division of Global Health Protection (DGHP) Global Epidemiology, Laboratory, and Surveillance Branch (GELSB). GELSB, in collaboration with CDC country and regional offices, is taking an active role to harmonize AFI surveillance efforts as part of a multi-pathogen approach to disease surveillance and supporting countries to strengthen these systems. HISP Centre is also grateful to the Ministry of Health of Uganda, HISP Uganda and AFENET Liberia for sharing their implementation lessons and system design approaches to inform the development of this toolkit.
 
 ## Background
 
@@ -30,11 +18,9 @@ Acute febrile illness (AFI) is a common clinical syndrome of a wide variety of p
 
 ### Use case
 
-Depending on country context, AFI systems may be implemented in select hospitals or health centers for a time-bound period or for ongoing surveillance activities. The AFI program enables enrollment, case data entry, and case data management from the point of case presentation to facility to final case outcome, inclusive of laboratory results. 
+Depending on country context, AFI systems may be implemented in select hospitals or health centers for a time-bound period or for ongoing surveillance activities. The  program serves as an electronic registry that supports decentralized electronic data capture of case surveillance data down to health facility and laboratory levels. The AFI program enables enrollment, case data entry, and case data follow-up from the point of case presentation to facility to final case outcome, inclusive of laboratory results. 
 
 This case surveillance package supports one approach to indicator-based surveillance, which is typically characterized as structured information, reported to public health officials mostly from formal sources such as health care providers, following a standardized format or set of indicator definitions ([WHO](https://apps.who.int/iris/bitstream/handle/10665/325015/WHO-AF-WHE-CPI-05.2019-eng.pdf), [US CDC](https://www.cdc.gov/globalhealth/healthprotection/gddopscenter/how.html)).
-
-This tracker program is not designed to support clinical management nor patient care. Rather, the program serves as an electronic registry that supports decentralized electronic data capture of case surveillance data down to health facility and laboratory levels.
 
 ### Workflow
 
@@ -73,7 +59,7 @@ Besides screening data, all other data are collected according to the below data
 
 ### Intended users
 
-Through a collaborative process of working with implementing countries and surveillance stakeholders at multiple levels of the health system, the following have been identified as users or potential users of an AFI surveillance data entry and management platform in DHIS2:
+Through a collaborative process of working with implementing countries and surveillance stakeholders at multiple levels of the health system, the following have been identified as potential users of an AFI surveillance data entry and management platform in DHIS2:
 
 - **Health facility staff or surveillance officers**: AFI surveillance staff at identified surveillance sites (hospitals, clinics, etc.) will be responsible for completing case data entry based on the predetermined sampling framework and inclusion/exclusion enrollment criteria
 - **Public health staff**: monitor and analyze surveillance data being collected using the DHIS2 system; receive alerts for potential disease outbreaks generated by the system; analyze surveillance data for trends that may indicate possible disease outbreaks and plan response activities where appropriate.
@@ -149,10 +135,7 @@ Basic information related to the specimen collection and transport (collector na
 
 In this stage all the information related to **Laboratory test** and **Pathogen tested** have been kept generic as the testing will be dependent on the implementation context (which pathogens and tests have been selected for AFI activities). These need to be customized prior to implementation.
 
-The *Date of test* has to be provided for each test. The purpose of this is to:
-
-- assign the test event to the right period of time in analytics;
-- help monitoring the delay between reception and result dates.
+The *Date of test* has to be provided for each test. The purpose of this is to assign the test event to the right period of time in analytics, and help monitoring the delay between reception and result dates.
 
 ![Laboratory test result](resources/images/afi_008.png)
 
@@ -168,7 +151,7 @@ The *Diagnosis* options have been kept generic (except for *Unexplained fever*) 
 
 ### Dashboards
 
-Two differents dashboards are present:
+The program includes two separate dashboards:
 
 - [AFI.01 - Case investigation](#afi01---case-investigationadd-link-here)
 - [AFI.02 - Surveillance overview](#afi02---surveillance-overviewadd-link-here)
@@ -187,7 +170,7 @@ The primary aim of the **Surveillance** dashboard is to allow those implementing
 
 The objective of the *"AFI - Data quality - Discrepancies on the enrollment"* visualization is to enable the possibility to spot possibles inconsistency between the case reported on the *'Screening'* dataset (aggregate data) and the *'AFI - Acute Febrile Illness'* tracker program(individual data) at Health Facility level.
 
-The indicator used, **DQ - Discrepancies on the enrollment**, compare the enrolled cases reported from both aggregate and individual data and in case of incongruities return a value different from 0 (Formula used: Aggregate data ++MINUS++ Individual data).
+The indicator used, **DQ - Discrepancies on the enrollment**, compares the enrolled cases reported from both aggregate and individual data and in case of incongruities return a value different from 0 (Formula used: Aggregate data ++MINUS++ Individual data).
 
 ![Discrepancies on the enrollment](resources/images/afi_012)
 
