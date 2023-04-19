@@ -160,19 +160,19 @@ The program includes two separate dashboards:
 
 The primary aim of the **Case Investigation** dashboard is to monitor and analyze real-time case-level data that is collected through AFI surveillance efforts. Enrollment data and information from the Case Report Form and specimen collection and testing form, such as patient demographics, clinical information, specimen collection, and laboratory results, are displayed here.
 
-![Case investigation dashboard](resources/images/afi_010)
+![Case investigation dashboard](resources/images/afi_010.png)
 
 #### [AFI.02 - Surveillance overview](add link here)
 
 The primary aim of the **Surveillance** dashboard is to allow those implementing AFI surveillance activities to efficiently monitor and evaluate real-time aggregate-level data that is collected through AFI surveillance efforts. High level screening and enrollment data are displayed here, with the option to filter by health facility for more in-depth activity tracking.
 
-![Surveillance overview](resources/images/afi_011)
+![Surveillance overview](resources/images/afi_011.png)
 
 The objective of the *"AFI - Data quality - Discrepancies on the enrollment"* visualization is to enable the possibility to spot possibles inconsistency between the case reported on the *'Screening'* dataset (aggregate data) and the *'AFI - Acute Febrile Illness'* tracker program(individual data) at Health Facility level.
 
 The indicator used, **DQ - Discrepancies on the enrollment**, compares the enrolled cases reported from both aggregate and individual data and in case of incongruities return a value different from 0 (Formula used: Aggregate data ++MINUS++ Individual data).
 
-![Discrepancies on the enrollment](resources/images/afi_012)
+![Discrepancies on the enrollment](resources/images/afi_012.png)
 
 ### Indicators / Program Indicators
 
