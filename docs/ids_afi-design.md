@@ -177,6 +177,7 @@ The indicator used, **DQ - Discrepancies on the enrollment**, compares the enrol
 ### Indicators / Program Indicators
 
 Hereunder you can find a list of the main indicators used on the visualisations goruped by topic:
+
 |Topic|Indicators|
 |-----|----------|
 |Program monitoring|Patients screened<BR>Patients eligible for enrollment<BR>Patients enrolled<BR>Non-hospitalized patients<BR>Hospitalized patient
