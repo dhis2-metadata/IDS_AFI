@@ -153,16 +153,16 @@ The *Diagnosis* options have been kept generic (except for *Unexplained fever*) 
 
 The program includes two separate dashboards:
 
-- [AFI.01 - Case investigation](#afi01---case-investigationadd-link-here)
-- [AFI.02 - Surveillance overview](#afi02---surveillance-overviewadd-link-here)
+- AFI.01 - Case investigation
+- AFI.02 - Surveillance overview
 
-#### [AFI.01 - Case investigation](add link here)
+#### [AFI.01 - Case investigation](https://demos.dhis2.org/hmis/dhis-web-dashboard/#/o8Tqcwr8ZKe)
 
 The primary aim of the **Case Investigation** dashboard is to monitor and analyze real-time case-level data that is collected through AFI surveillance efforts. Enrollment data and information from the Case Report Form and specimen collection and testing form, such as patient demographics, clinical information, specimen collection, and laboratory results, are displayed here.
 
 ![Case investigation dashboard](resources/images/afi_010.png)
 
-#### [AFI.02 - Surveillance overview](add link here)
+#### [AFI.02 - Surveillance overview](https://demos.dhis2.org/hmis/dhis-web-dashboard/#/DwEJWGNY8ex)
 
 The primary aim of the **Surveillance** dashboard is to allow those implementing AFI surveillance activities to efficiently monitor and evaluate real-time aggregate-level data that is collected through AFI surveillance efforts. High level screening and enrollment data are displayed here, with the option to filter by health facility for more in-depth activity tracking.
 
